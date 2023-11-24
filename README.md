@@ -4,8 +4,8 @@
 
 # Access URL
 
-    Application is hosted in Googles firebase
-    Access Link https://ecommerce-store-mo.web.app/
+    Application is hosted in Googles firebase, please follow below link
+    https://ecommerce-store-mo.web.app/
 
 ---
 
