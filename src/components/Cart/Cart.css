@@ -1,0 +1,136 @@
+.cart-page-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70rem;
+  padding: 2rem;
+  background: #fff;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.cart-container {
+  flex-grow: 1;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-image {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+  margin-right: 2rem;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item-title {
+  font-size: 1rem;
+}
+
+.remove-item-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 1rem;
+  line-height: 1;
+}
+
+.cart-item-price {
+  color: #c00;
+  font-weight: bold;
+  margin-top: 0rem;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.cart-summary {
+  border: 1px solid #eaeaea;
+  border-radius: 0.5rem;
+  background: #f8f8f8;
+  position: sticky;
+  top: 2rem;
+  width: auto;
+  position: static;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.clear-cart-button {
+  padding: 1rem 3rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: auto;
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.clear-cart-button:hover {
+  background-color: #ff3838;
+}
+
+.quantity-btn {
+  margin: 0 1rem;
+}
+
+/*Media Queries section for different screen sizes*/
+
+@media (min-width: 768px) {
+  .cart-page-container {
+    flex-direction: row;
+    margin: 2rem auto;
+  }
+  .cart-container {
+    margin-right: 2rem;
+  }
+
+  .cart-summary {
+    width: 20rem;
+    padding: 2rem;
+  }
+  .clear-cart-button {
+    width: 40%;
+  }
+  .cart-header {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+  }
+}
