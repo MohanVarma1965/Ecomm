@@ -11,11 +11,27 @@
 
 ## Installation
 
-1. Step by step instructions on how to install and utilize the application.
-   1.1 Clone the repository using below URL - git clone https://github.com/MohanVarma1965/Ecomm.git
-   1.2. Navigate to project directory - cd Ecomm
-   1.3. Install Dependencies - npm install
-   1.4. Start the development server - npm start
+Step by step instructions on how to install and utilize the application.
+
+1. Clone the repository using below URL
+
+   - git clone https://github.com/MohanVarma1965/Ecomm.git
+
+2. Navigate to project directory
+
+   - cd Ecomm
+
+3. Install Dependencies
+
+   - npm install
+
+4. Start the development server
+
+   - npm start
+
+5. npm start command opens the application directly in
+
+   - http://localhost:3000
 
 ## Project Details
 
